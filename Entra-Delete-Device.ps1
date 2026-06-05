@@ -66,7 +66,7 @@ function Remove-SingleEntraDevice {
         return
     }
 
-    Write-Host "Looking up Device ID '$DeviceId' in Entra ID..." -ForegroundColor Yellow
+    Write-Host "Looking up Device ID '$DeviceId' in Entra" -ForegroundColor Yellow
 
     try {
         $device = Get-MgBetaDevice `
